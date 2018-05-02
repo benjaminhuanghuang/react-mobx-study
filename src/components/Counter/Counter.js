@@ -18,13 +18,17 @@ class Counter extends Component {
     }
     increment2 = () => {
         this.setState({
-            count2: this.count2 + 1
+            count2: this.state.count2 + 1
+        })
+        // setState is aync 
+        this.setState({
+            count2: this.state.count2 + 1
         })
     }
 
     decrement2 = () => {
         this.setState({
-            count2: this.count2 - 1
+            count2: this.state.count2 - 1
         })
     }
     render() {
@@ -36,7 +40,7 @@ class Counter extends Component {
                     <button onClick={this.decrement}>-</button>
                 </div>
                 <div>
-                    {this.count2}
+                    {this.state.count2}
                     <button onClick={this.increment2}>+</button>
                     <button onClick={this.decrement2}>-</button>
                 </div>
