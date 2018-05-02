@@ -1,0 +1,6 @@
+## Setup
+```
+    npm install mobx --save
+    npm install mobx-react --save
+
+```
