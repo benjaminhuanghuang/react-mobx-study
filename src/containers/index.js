@@ -2,7 +2,7 @@ import React from 'react';
 // import package
 import { Provider } from 'react-redux';
 import { Router, Route, hashHistory } from 'react-router';
-import store from 'redux_flow/store';
+import store from '../redux_flow/store';
 // import relative path
 import Home from './Home/Home';
 import NotFound from './NotFound/NotFound';

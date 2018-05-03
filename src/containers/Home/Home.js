@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import todoAction from 'redux_flow/todo/todoAction';
+import todoAction from '../../redux_flow/todo/todoAction';
 import AddTodo from './components/AddTodo/AddTodo';
 import TodoList from './components/TodoList/TodoList';
 
